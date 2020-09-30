@@ -8,7 +8,7 @@ import { Observable } from "rxjs/Observable";
 
 @Injectable()
 export class ProductService {
-  private _productsUrl = '..assets/products.json';
+  private _productsUrl = '../assets/products.json';
   constructor(private _http: Http) { }
   private _albumUrl = '../assets/album.json';
 
